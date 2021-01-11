@@ -1,0 +1,7 @@
+#测试：
+1.开启visdom：
+	python -m visdom.server
+2.train
+	python train.py train --env="train" --caffe-pretrain
+2.test:
+	python test.py test --env='test' --caffe-pretrain
